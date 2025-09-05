@@ -1,8 +1,9 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8080/api/notes";
+// const API_BASE_URL = "http://localhost:8080/api/notes";
+const API_BASE_URL = "https://notesapp-latest-zcxz.onrender.com/";
 
-// Create axios instance with default config
+
 const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
@@ -11,7 +12,7 @@ const api = axios.create({
   timeout: 10000, // 10 seconds timeout
 });
 
-// Request interceptor
+
 api.interceptors.request.use(
   (config) => {
     console.log(
@@ -25,7 +26,7 @@ api.interceptors.request.use(
   }
 );
 
-// Response interceptor
+
 api.interceptors.response.use(
   (response) => {
     console.log("Response received:", response.status);
@@ -52,7 +53,7 @@ export const noteService = {
     }
   },
 
-  // Get note by ID
+  // Get note 
   getNoteById: async (id) => {
     try {
       const response = await api.get(`/${id}`);

@@ -1,7 +1,10 @@
 import NotesApp from "./components/NotesApp";
 
 function App() {
-  return <NotesApp />;
-}
+  return (
+    <>
+      <NotesApp />;
+    </>
+)}
 
 export default App;
