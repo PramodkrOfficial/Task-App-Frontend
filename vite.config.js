@@ -10,7 +10,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         // target: 'http://localhost:8080',
-        target: 'https://notesapp-1gqt.onrender.com/',
+        target: 'https://notes-app-nh82.onrender.com/',
         changeOrigin: true,
         secure: false,
       }
