@@ -11,7 +11,9 @@ export default defineConfig({
       '/api': {
         // target: 'http://localhost:8080',
 
-        target: 'https://notesapp-7vyd.onrender.com/',
+        // target: 'https://notesapp-new.onrender.com/',
+
+        target: 'https://notesapp-p9v1.onrender.com/',
         changeOrigin: true,
         secure: false,
       }

@@ -3,7 +3,9 @@ import axios from "axios";
 // const API_BASE_URL = "http://localhost:8080/api/notes";
 
 
-const API_BASE_URL = "https://notesapp-7vyd.onrender.com/api/notes";
+// const API_BASE_URL = "https://notesapp-new.onrender.com/api/notes";
+
+const API_BASE_URL = "https://notesapp-p9v1.onrender.com/api/notes";
 
 
 const api = axios.create({
