@@ -5,7 +5,7 @@ import axios from "axios";
 
 // const API_BASE_URL = "https://notesapp-p9v1.onrender.com/api/notes";
 
-const API_BASE_URL = "https://notesapp-qd68.onrender.com/api/notes";
+const API_BASE_URL = "https://notes-app-q1w8.onrender.com/api/notes";
 
 
 const api = axios.create({
