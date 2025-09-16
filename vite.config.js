@@ -9,11 +9,9 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        // target: 'http://localhost:8080',
 
-        // target: 'https://notesapp-p9v1.onrender.com/',
-
-        target: 'https://notes-app-q1w8.onrender.com/',
+        target: 'https://notes-app-5fft.onrender.com/',
         changeOrigin: true,
         secure: false,
       }

@@ -3,9 +3,7 @@ import axios from "axios";
 // const API_BASE_URL = "http://localhost:8080/api/notes";
 
 
-// const API_BASE_URL = "https://notesapp-p9v1.onrender.com/api/notes";
-
-const API_BASE_URL = "https://notes-app-q1w8.onrender.com/api/notes";
+const API_BASE_URL = "https://notes-app-5fft.onrender.com/api/notes";
 
 
 const api = axios.create({
@@ -13,8 +11,7 @@ const api = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
-  timeout: 10000, // 10 seconds timeout
-  // timeout: 30000, // 30 seconds timeout
+  timeout: 30000, // 30 seconds timeout
 });
 
 
